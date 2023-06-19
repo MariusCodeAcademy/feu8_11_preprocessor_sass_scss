@@ -15,12 +15,15 @@
     // border-radius: 15px;
   }
   .box-1 {
-    @include bgImage;
+    @extend .box;
+    @include bgImage($radius: 15px);
   }
   .box-2 {
-    @include bgImage('../bg.webp');
+    @extend .box;
+    @include bgImage('../bg.webp', 5px);
   }
   .box-3 {
-    @include bgImage('../640.jpg');
+    @extend .box;
+    @include bgImage('../640.jpg', 50px);
   }
 }

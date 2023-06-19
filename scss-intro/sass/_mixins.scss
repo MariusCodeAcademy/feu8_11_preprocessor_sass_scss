@@ -1,6 +1,6 @@
-@mixin bgImage($img: '../bg.jpg') {
+@mixin bgImage($img: '../bg.jpg', $radius: 0) {
   background: url($img) no-repeat center;
   background-size: cover;
   box-shadow: 5px 5px 15px gray;
-  border-radius: 15px;
+  border-radius: $radius;
 }
