@@ -1,23 +1,2 @@
-// kintamasis
-$main-color: cornflowerblue;
-
-// this is hero area
-
-.hero {
-  .text {
-    background-color: $main-color;
-    color: white;
-  }
-
-  h1 {
-    text-transform: uppercase;
-    color: $main-color;
-  }
-}
-
-.btn-main {
-  background-color: $main-color;
-  color: white;
-  border: 1px solid #000;
-  padding: 0.5em 1em;
-}
+// itraukti hero stiliu i sita faila
+@import 'hero';
