@@ -2,8 +2,10 @@
 $main-color: #007bff;
 
 @import 'reset';
+@import 'mixins';
 @import 'btn';
 
 // itraukti hero stiliu i sita faila
 @import 'hero';
 @import 'about';
+@import 'boxes';
