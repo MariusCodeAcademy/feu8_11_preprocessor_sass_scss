@@ -1,0 +1,14 @@
+// kintamasis
+$main-color: tomato;
+
+// this is hero area
+
+.hero {
+  .text {
+    background-color: coral;
+  }
+  h1 {
+    text-transform: uppercase;
+    color: $main-color;
+  }
+}
