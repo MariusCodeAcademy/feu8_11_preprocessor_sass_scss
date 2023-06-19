@@ -4,17 +4,23 @@
   background-color: black;
   color: white;
   display: grid;
-  place-items: center;
+  // kai visas grid celes centruojam
+  // place-items: center;
 
   // kad elementai persidengtu naudosim grid. turim padeti
   // elementus i ta pacia cele
   .hero-img {
     grid-area: 1 / 1 / 2 / 2;
+    align-self: stretch;
+    object-fit: cover;
   }
   .text-part {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    place-self: center;
     grid-area: 1 / 1 / 2 / 2;
     text-align: center;
-    background-color: transparentize($color: #000000, $amount: 0.7);
+    background-color: transparentize($color: #000000, $amount: 0.6);
   }
 } //hero end
 

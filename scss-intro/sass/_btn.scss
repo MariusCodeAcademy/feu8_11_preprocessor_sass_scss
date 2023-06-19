@@ -1,0 +1,22 @@
+.btn {
+  border: 1px solid #000;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 0.5em 2em;
+  color: white;
+  transition: all 0.3s;
+}
+
+.btn-main {
+  // itraukti visas btn klases taisykles
+  @extend .btn;
+  background-color: $main-color;
+  border-color: $main-color;
+  // & reikskia klases pavadinima kurioje esam. siuo atveju - '.btn-main'
+  &:hover {
+    background-color: #333;
+    border-color: #333;
+  }
+}
+
+// .btn-main:hover {}
