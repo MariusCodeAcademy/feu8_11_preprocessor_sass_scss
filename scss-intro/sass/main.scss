@@ -5,6 +5,9 @@ $main-color: #007bff;
 @import 'mixins';
 @import 'btn';
 
+// font awesome icons
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
 // itraukti hero stiliu i sita faila
 @import 'hero';
 @import 'about';

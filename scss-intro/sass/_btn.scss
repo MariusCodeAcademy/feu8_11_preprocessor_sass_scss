@@ -19,4 +19,20 @@
   }
 }
 
+.btn-arrow {
+  @extend .btn-main;
+  border-radius: 5px;
+  padding: 0.4em 0.3em;
+  width: 50px;
+}
+
+.rounded-left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rounded-right {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 // .btn-main:hover {}
